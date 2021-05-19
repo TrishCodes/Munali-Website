@@ -432,7 +432,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .carousel-inner .carousel-item-next.carousel-item-start,
 #hero .carousel-inner .carousel-item-prev.carousel-item-end {
   opacity: 1;
-  transition: 0.5s;
+  transition: 0.1s;
 }
 
 #hero .carousel-inner .carousel-item-next,
@@ -611,10 +611,14 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .card {
+  
+    border-color: white;
+    
+    
+}
 
-    display: inline-block;
-    vertical-align: top;
-    max-width: 100%;
+.card-body{
+    text-align: left;
 }
 /*--------------------------------------------------------------
 # Services
